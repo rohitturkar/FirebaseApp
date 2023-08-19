@@ -1,0 +1,14 @@
+.header{
+display:flex;
+align-items: center;
+justify-content: space-between;
+background-color: #222;
+color:#fff;
+height:12vh;
+}
+.header-left{
+    margin:auto 1rem;
+}
+.header-right{
+    padding:0 2rem;
+}

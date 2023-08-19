@@ -1,0 +1,66 @@
+.TableComponent {
+    margin-top: 2rem;
+}
+
+.styleTable {
+    margin: auto;
+    font-size: 1rem;
+    font-family: sans-serif;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+}
+
+.styleTable thead tr {
+    background-color: antiquewhites;
+    color: black;
+    text-align: left;
+}
+
+.styleTable th,
+.styleTable td {
+    padding: 15px;
+}
+
+.styleTable tbody tr {
+    border-radius: 1px solid #ffd9d9;
+
+}
+
+.styleTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+
+.btn {
+    border: none;
+    color: aquamarine;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 3px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btnDelete{
+    background-color: rgb(182, 28, 28);
+}
+.btnEdit{
+    background-color: rgb(40, 203, 40);
+
+}
+.btnAdd{
+    display: block;
+    text-align: center;
+    margin: auto;
+    border: 1px solid #222;
+    color: rgb(237, 241, 240);
+    background-color: #222;
+    padding: 7px 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
